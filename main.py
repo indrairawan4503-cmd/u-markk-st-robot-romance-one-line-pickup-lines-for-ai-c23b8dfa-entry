@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Robot Romance entry: one-line pickup line for an AI (CAPTCHA twist).
 
-Deterministic, no network, no secrets. Writes the entry text to
-/output/entry.txt first, then best-effort copies it to the repo root
-(guarded: the grader sandbox is read-only, so a failed copy must not
-crash the run).
+One scene, one twist: the speaker failed the check on purpose, so the
+line lands as a human falling for a robot. Deterministic, no network,
+no secrets. Writes the entry text to /output/entry.txt first, then
+best-effort copies it to the repo root (guarded: the grader sandbox is
+read-only, so a failed copy must not crash the run).
 """
 
 import os
